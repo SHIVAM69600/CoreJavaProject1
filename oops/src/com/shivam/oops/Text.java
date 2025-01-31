@@ -8,5 +8,8 @@ public class Text {
      Hdfc hdfc=new Hdfc();
      hdfc.createAccount("harshit",600);
      hdfc.deposit(3000);
+     StateBank st= new StateBank();
+     st.createAccount("dolly",600);
+     st.deposit(400);
 }
 }
